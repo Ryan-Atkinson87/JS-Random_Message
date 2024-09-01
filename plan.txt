@@ -1,0 +1,17 @@
+Main Objectives:
+- Create a random message generator that produces an inspirational quote when a message is called
+- Program musn't repeat the same message in the same instance of the program running
+
+Additional Obejectives:
+- If a username has been provided, personalise the greeting with the username
+
+Method:
+- Create an object to store the username
+- Create an object with inspirational quotes
+- Create an array to store quote reference numbers that have been used
+- Creat a function to generate new reference numbers
+-- Number must be unique
+--- Use the reference number array to create unique number
+-- Store the reference number, the quote, and author
+- Create an object factory to add additional quotes
+- Create a function to generate a new quote that hasn't been used
